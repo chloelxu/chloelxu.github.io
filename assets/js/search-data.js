@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "Goofy things I&#39;ve built.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
@@ -447,14 +447,14 @@ ninja.data = [{
           description: "a project with a background image and giscus comments",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_project/";
-            },},{id: "projects-project-3-with-very-long-name",
-          title: 'project 3 with very long name',
-          description: "a project that redirects to another website",
+            },},{id: "projects-ising-opinion-model-interactive",
+          title: 'Ising Opinion Model (Interactive)',
+          description: "Ising models, initially developed to study ferromagnetism, are also able to simulate the evolution of opinions and elections (Budrikis, 2024; Corberi et al., 2024; Tiwari et al., 2021). Each square on this lattice illustrates a voter who can hold one of two positions. The grid size represents the size of the voting population, the temperature represents the randomness of decision-making, the external field represents the influence of media biases, the coupling constant represents the strength of peer pressure, and the number of steps represents the length of the simulation. Notice how the final opinion grid changes depending on these parameters. For example, what would you expect to see with strong coupling and low temperatures? What about weak coupling and high temperatures?",
           section: "Projects",handler: () => {
               window.location.href = "/projects/3_project/";
-            },},{id: "projects-project-4",
-          title: 'project 4',
-          description: "another without an image",
+            },},{id: "projects-sandpile-simulation",
+          title: 'Sandpile Simulation',
+          description: "Inspired by the Bak-Tang-Wiesenfeld sandpile model, this simulation adds one grain to a random location on a square sandpile for each time step. After toppling, the sand is redistributed to other piles. The final stress state demonstrates what the final sandpile looks like, with the color showing how much sand is in that location.",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
             },},{id: "projects-project-5",
