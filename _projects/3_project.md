@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
+title: Ising Opinion Model (Interactive)
+description: Ising models, initially developed to study ferromagnetism, are also able to simulate the evolution of opinions and elections (Budrikis, 2024; Corberi et al., 2024; Tiwari et al., 2021). Each square on this lattice illustrates a voter who can hold one of two positions. The grid size represents the size of the voting population, the temperature represents the randomness of decision-making, the external field represents the influence of media biases, the coupling constant represents the strength of peer pressure, and the number of steps represents the length of the simulation. Notice how the final opinion grid changes depending on these parameters. For example, what would you expect to see with strong coupling and low temperatures? What about weak coupling and high temperatures?
 img: assets/img/7.jpg
-redirect: https://unsplash.com
+redirect: https://isingmodel.streamlit.app/
 importance: 3
-category: work
+category: unserious
 ---
 
 Every project has a beautiful feature showcase page.

@@ -1,10 +1,11 @@
 ---
 layout: page
-title: project 4
-description: another without an image
+title: Sandpile Simulation
+description: Inspired by the Bak-Tang-Wiesenfeld sandpile model, this simulation adds one grain to a random location on a square sandpile for each time step. After toppling, the sand is redistributed to other piles. The final stress state demonstrates what the final sandpile looks like, with the color showing how much sand is in that location.
 img:
+redirect: https://sandpile.streamlit.app/
 importance: 3
-category: fun
+category: unserious
 ---
 
 Every project has a beautiful feature showcase page.
